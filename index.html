@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    </head>
+  <body>
+    <audio id="audio1">
+      <source src="audio/p1.wav"></source>
+    </audio>
+    <audio id="audio2">
+        <source src="audio/p2.wav"></source>
+      </audio>
+      <audio id="audio3">
+        <source src="audio/p3.wav"></source>
+      </audio>
+      <audio id="audio4">
+        <source src="audio/p4.wav"></source>
+      </audio>
+      <audio id="audio5">
+        <source src="audio/p5.wav"></source>
+      </audio>
+    <div class="container">
+        <h1 class ='p' id="p1"></h1>
+        <h1 class ='p' id="p2"></h1>
+        <h1 class ='p' id="p4"></h1>
+        <h1 class ='p' id="p5"></h1>
+        
+
+    </div>
+      
+    
+
+  </body>
+</html>
+<style>
+    *{
+      margin:0;
+      padding:0;
+    }
+    .container{
+      
+        background:url('https://images.unsplash.com/photo-1602293565479-1790e39cafc0?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80');
+        background-repeat: round;
+        height: 899px;
+      
+    }
+    .p{
+      width: 230px;
+      height: 100px;
+      opacity: 70%;
+      border-radius: 20%;
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+      
+    }
+    .p:hover{
+      background-color: black;
+      opacity:20%;
+      color:white;
+    }
+    #p1{
+      position:absolute;
+      top:20px;
+      left:10px;
+    }
+    #p2{
+      position:absolute;
+      top:20px;
+      left:370px;
+      width: 900px;
+    }
+    #p4{
+      position:absolute;
+      top:400px;
+      left:850px;
+      width: 720px;
+      rotate:-58deg;
+    }
+    #p5{
+      position:absolute;
+      top:150px;
+      left:120px;
+      width: 300px;
+      rotate:-70deg;
+      
+      
+    }
+    h1{
+        color:rgb(0, 0, 0);
+        opacity: 20%;
+        font-family: Arial, Helvetica, sans-serif;
+    
+    }
+    
+</style>
