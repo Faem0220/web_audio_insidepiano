@@ -1,4 +1,7 @@
+document.getElementById( 'startButton' ).addEventListener( 'click', init );
 
+function init() {
+document.getElementById( 'overlay' ).remove();  
   var p1 = $("#audio1")[0];
 $("#p1").mouseenter(function() {
   p1.play();
@@ -19,3 +22,4 @@ var p5 = $("#audio5")[0];
 $("#p5").mouseenter(function() {
   p5.play();
 });
+}
